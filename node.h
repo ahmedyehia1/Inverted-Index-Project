@@ -12,7 +12,9 @@ class node {
 public:
     char name;
     node* children[27];
-    SetTree<string> files;
+    //SetTree<string> files;
+    string file ="";
+    string last_file="";
     node();
 };
 

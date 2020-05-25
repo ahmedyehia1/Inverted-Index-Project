@@ -12,10 +12,12 @@ public:
   node* Root;
   node* current_node;
   tree();
+// SetTree<string> unique_words;
   void add_word(string new_word,string file_name);
-  SetTree<string> get_files(string new_word);
+  string get_files(string new_word);
   void destructor(node* x);
   ~tree();
+  void tokenize(string new_word,string file_name);
 };
 
 
